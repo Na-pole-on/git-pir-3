@@ -15,13 +15,21 @@
       </AbstractStep>
       <AbstractStep z:Id="i4" i:type="ExecutedStep">
         <Childs />
-        <Id>0a07d023-8526-4313-9b60-1285ad2e2a11</Id>
+        <Id>b0900f4e-54c0-421a-86df-03767fc4d6c0</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
           <PropertyValue z:Id="i5">
-            <PropertyName>Text</PropertyName>
+            <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Hello"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i6">
+            <PropertyName>To</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>str</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -32,7 +40,7 @@
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
-        <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
+        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
       </AbstractStep>
     </Childs>
     <Id>915ca52a-bc21-4f9a-9221-856d30533603</Id>
@@ -47,15 +55,7 @@
   </Logic>
   <Name>Main.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-  <Params>
-    <Parameter z:Id="i7">
-      <DefaultValueExpression>"Hello world"</DefaultValueExpression>
-      <Description></Description>
-      <Name>text</Name>
-      <RunnerType>None</RunnerType>
-      <TypeString>System.String</TypeString>
-    </Parameter>
-  </Params>
+  <Params />
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />
